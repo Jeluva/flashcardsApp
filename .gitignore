@@ -3,6 +3,7 @@
 bin/
 *.pyc
 __pycache__/
+.vscode/
 
 # Archivos de entorno virtual
 venv/
