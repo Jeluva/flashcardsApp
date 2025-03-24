@@ -9,8 +9,8 @@ workflows:
         bundle_identifier: com.jejo.flashcardsapp  # Pon aquí tu identificador (ejemplo: com.jeluva.flashcards)
       vars:
         # Si tienes un workspace y scheme, agrégalos aquí; si no, puedes probar omitir estas líneas o usar los valores predeterminados que Buildozer genere.
-        XCODE_WORKSPACE:   # Reemplaza si lo conoces, o déjalo vacío
-        XCODE_SCHEME:                 # Reemplaza si lo conoces, o déjalo vacío
+        XCODE_WORKSPACE: "flashcardsapp.xcworkspace"  # Reemplaza si lo conoces, o déjalo vacío
+        XCODE_SCHEME:   "flashcardsappScheme"              # Reemplaza si lo conoces, o déjalo vacío
     scripts:
       - name: Build IPA for personal use
         script: |
